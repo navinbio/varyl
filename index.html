@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VARYL - Chem Library Builder</title>
+  <meta name="description" content="VARYL is a Windows desktop chem library builder for structure design, molecular enumeration, validation, and export.">
+  <link rel="icon" href="assets/varyl.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="VARYL home">
+      <img src="assets/varyl.png" alt="">
+      <span>VARYL</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#capabilities">Capabilities</a>
+      <a href="#requirements">Requirements</a>
+      <a href="#release">Release notes</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img class="hero-image" src="assets/varyl-app.png" alt="VARYL showing a molecular structure and generated library">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="version">Version 1.0.0 for Windows</p>
+        <h1>VARYL</h1>
+        <p class="tagline">Chem Library Builder</p>
+        <p class="summary">Design reusable chemical fragments, enumerate molecular libraries, validate structures, and export canonical SMILES from one desktop workspace.</p>
+        <a class="download" href="https://github.com/navinbio/varyl/releases/download/v1.0.0/VARYL-Setup-1.0.0.exe">Download VARYL 1.0</a>
+        <p class="installer-note">64-bit Windows. Python and RDKit are included. Published by Pentose LLC. <a href="SHA256SUMS.txt">Verify checksum</a>.</p>
+      </div>
+    </section>
+
+    <section class="content-band" id="capabilities">
+      <div class="section-inner">
+        <h2>Built for library design</h2>
+        <div class="feature-grid">
+          <article><h3>Draw and define</h3><p>Use the integrated Ketcher editor with numbered R sites, A-Z variables, cores, fragments, and saved arm designs.</p></article>
+          <article><h3>Enumerate and validate</h3><p>Generate positional and substituent combinations with RDKit validation, canonical SMILES, and duplicate removal.</p></article>
+          <article><h3>Store and search</h3><p>Keep reusable structures in permanent SQLite libraries with stable identifiers, lineage, pagination, and backups.</p></article>
+          <article><h3>Review and export</h3><p>Preview complete structures and export Excel, CSV, SDF, or grouped CDXML files with calculated properties.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-band alternate" id="requirements">
+      <div class="section-inner two-column">
+        <div><h2>System requirements</h2><p>Windows 10 or 11, 64-bit processor, 8 GB memory recommended, and sufficient storage for generated libraries.</p></div>
+        <div><h2>Your data stays separate</h2><p>Projects, molecule databases, recovery snapshots, and backups are stored in your Documents folder and are not deleted during upgrades or uninstall.</p></div>
+      </div>
+    </section>
+
+    <section class="content-band" id="release">
+      <div class="section-inner beta-row">
+        <div><p class="version">Version 1.0</p><h2>Review chemistry with confidence</h2><p>VARYL validates and deduplicates generated structures, while keeping the chemist in control. Review generated chemistry before scientific use and include a shared-session snapshot when reporting reproducible issues.</p></div>
+        <a class="secondary" href="release-notes.html">Read release notes</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>VARYL &middot; Chem Library Builder</span><span>&copy; 2026 Pentose LLC</span></footer>
+</body>
+</html>
